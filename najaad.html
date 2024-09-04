@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website-kaaga</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Ku soo dhawoow Website-kaaga!</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Hoyga</a></li>
+                <li><a href="#about">Ku Saabsan</a></li>
+                <li><a href="#contact">Xiriir</a></li>
+                <li><a href="#buy">Iibso Hadda</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Hoyga</h2>
+            <p>Qaybtaan waa hoyga website-kaaga.</p>
+        </section>
+        <section id="about">
+            <h2>Ku Saabsan</h2>
+            <p>Halkan waxaad ku qor kartaa macluumaad ku saabsan website-kaaga.</p>
+        </section>
+        <section id="contact">
+            <h2>Xiriir</h2>
+            <form action="mailto:example@example.com" method="post" enctype="text/plain">
+                <label for="name">Magaca:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">Fariin:</label>
+                <textarea id="message" name="message" required></textarea>
+                <br>
+                <button type="submit">Dir Fariin</button>
+            </form>
+        </section>
+        <section id="buy">
+            <h2>Iibso Hadda</h2>
+            <button id="buy-now" onclick="window.location.href='https://www.example.com/buy'">Iibso Hadda</button>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Website-kaaga. Dhammaan xuquuqda way xifdisan yihiin.</p>
+    </footer>
+</body>
+</html>
